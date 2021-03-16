@@ -1,0 +1,24 @@
+body {
+    font-size: 20px;
+    background-color:rgb(177, 238, 175);
+    font-family:'Times New Roman', Times, serif;
+    }
+
+h1 {
+    color: rgb(47, 133, 21);
+    text-align: center;
+    background-color: rgb(234, 238, 180);
+}
+nav {
+    background-color:rgb(234, 238, 180);;
+    text-align-last: center ;
+    }
+ h2 {
+        color: rgb(47, 133, 21);
+    }
+
+    address {
+        color: lightslategrey;
+    }
+    
+    
