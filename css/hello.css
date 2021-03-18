@@ -9,16 +9,16 @@ h1 {
     text-align: center;
     background-color: rgb(234, 238, 180);
 }
+
 nav {
     background-color:rgb(234, 238, 180);;
     text-align-last: center ;
     }
- h2 {
+h2 {
         color: rgb(47, 133, 21);
     }
-
     address {
         color: lightslategrey;
-    }
-    
+        background-color: lavender;
+}
     
