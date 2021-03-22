@@ -9,7 +9,9 @@ header {
     width: 100%;
     height: 305px;
 }
-
+figure {
+    text-align: center;
+  }
     
 h1, h2 {
     color: rgb(200, 137, 216);
