@@ -24,8 +24,28 @@ nav {
     address {
         color: lightslategrey;
         background-color: lavender;
-                
-    }
+        }
+
+        .menu {
+            list-style-type: none;
+            padding-left: 0;
+            margin-left: 0;
+            text-align-last: center ;
+        }
+        .menu a {
+        text-decoration: none;
+        font-family: sans-serif;
+        color: rgb(54, 72, 236);
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: rgb(132, 213, 245);
+        border-bottom: 5px solid #58aaee;
+        }
+        .menu li {
+            display: inline;
+            float:inline-start;
+        }
+        
     
 
     
