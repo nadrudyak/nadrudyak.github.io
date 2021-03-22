@@ -49,3 +49,19 @@ border-bottom: 5px solid #58aaee;
     display: inline;
     float:inline-start;
 }
+th {
+    text-align: left;
+    color: rgb(41, 112, 219);
+    background-color: #c3e0a1;
+}
+td {
+    width: 250px;
+    color: #1989d4;
+    border-bottom: 1px solid #eee;
+    background-color: rgb(155, 226, 248);
+}
+caption {
+    text-align: center;
+    font-size: 40px;
+    color: lightskyblue;
+}
