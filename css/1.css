@@ -1,4 +1,4 @@
-/* body { 
+ body { 
     font-size: 20px;
     background-color:rgb(216, 242, 252);
     font-family:'Times New Roman', Times, serif;
@@ -44,16 +44,5 @@ border-bottom: 5px solid #58aaee;
     display: inline;
     float:inline-start;
 }
-*/
-body {
-    background-color: rgb(179, 184, 187);
-}
-.block1 {
-    background-image: url(/point/image/5.png);
-    background-repeat: repeat;
-        }
-.block2 {
-    background-image: url(/point/image/6.png);
-    background-repeat: repeat;
-}
+
 
