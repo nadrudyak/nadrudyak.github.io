@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(179, 184, 187);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.block1 {
+    background-image: url(/point/image/5.png);
+    background-repeat: repeat-x 100%;
+         }
+.block2 {
+    background-image: url(/point/image/6.png);
+    background-repeat: repeat-y 100%;
+}
