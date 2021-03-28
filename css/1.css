@@ -60,7 +60,7 @@ h1 {
   height: 1000px;
   background: rgb(133, 179, 182);
   margin-left: 15px;
-  margin-right: 25px;
+  margin-right: 45px;
   border-radius: 20px;
   font-size: 25px;
   text-align: justify;
@@ -84,8 +84,9 @@ h1 {
   color: darkslategray;
 }
 .box6 {
-  display: inline-block;
-  width: 670px;
+ 
+  float: left;
+  width: 33%;
   height: 1000px;
   background: rgb(133, 179, 182);
   border-radius: 20px;
@@ -94,6 +95,7 @@ h1 {
   box-sizing: border-box;
   font-size: 25px;
   color: darkslategray;
+  margin-bottom: 80px;
 }
 .a {
   background-image: url(/nadrudyak.github.io/images/1.jfif);
@@ -104,7 +106,7 @@ h1 {
 }
 .b {
   background-image: url(/nadrudyak.github.io/images/fon.png);
-  width: 300px;
+  width: 60%;
   height: 190px;
   top: 0px;
   right: 0px;
@@ -119,11 +121,12 @@ h1 {
 .footer {
     background-color: rgb(196, 178, 212);
   border-radius: 25px;
-   
-  height: 200px;
+     height: 200px;
   font-size: 25px;
   text-align: justify;
   color: beige;
   padding: 15px;
-  margin-top: 30px;
+  clear: both;
+  margin-top: 80px;
+  
 }
