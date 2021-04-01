@@ -14,7 +14,8 @@ h1 {
   text-align: center;
 }
 
-  .column {
+  .column 
+   {
   border: 1px solid #666;
   background: #343436;
   padding: 15px;

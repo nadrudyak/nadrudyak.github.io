@@ -33,14 +33,14 @@
 }
 
 .box_row2 div a:hover {
-  background-color: #222;
+  background-color:  #0f0f0f;
 }
 
-.box_row2 div a.active {
+.box_row2 div :active{
   color: white;
   background-color: #a3eca6;
 }
-
+  
 .main_box {
   display: flex;
   flex-direction: row;
