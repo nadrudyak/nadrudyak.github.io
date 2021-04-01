@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #f7f7f7;
+  font-size: 1.3em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+  .column {
+  border: 1px solid #666;
+  background: #343436;
+  padding: 15px;
+  margin-bottom: 10px;
+}  
+.flexbox {
+  display: flex;
+  flex-direction: column;
+}
+.row,
+.row1,
+.row2,
+.row3 {
+  display: flex;
+}
+.half1,
+.half2 {
+ border: 1px solid #666;
+  background: #343436;
+  padding: 15px;
+  margin-bottom: 10px;  
+  width: 100%;
+}
+
+.one-third {
+  width: 100%;
+  background: #343436;
+  padding: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #666;
+}
+.one-fourth {
+  width: 100%;
+  background: #343436;
+  padding: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #666;
+}
+.one-third {
+  flex-basis: 33%;
+}
+.two-thirds {
+  flex-basis: 66%;
+}
