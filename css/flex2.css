@@ -56,9 +56,10 @@ h1 {
   width: 100%;
   border: 1px solid #666;
 }
-.one-third {
+  .one-third {
   flex-basis: 33%;
-}
+}  
 .two-thirds {
-  flex-basis: 66%;
+    flex-basis: 66%;  
+  
 }
