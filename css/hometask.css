@@ -6,3 +6,10 @@ body {
     font-size: 25px;
      
 }
+h1 {
+    color:rgb(121, 131, 112);
+    text-transform: uppercase;
+}
+ ul {
+    list-style-type: decimal;
+}
