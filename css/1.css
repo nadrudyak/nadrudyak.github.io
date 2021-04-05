@@ -3,22 +3,29 @@ body {
 }
 .box1 {
   background-image: url(/nadrudyak.github.io/images/4444.jpg);
-  width: 100%;
-  height: 500px;
-  border-radius: 25px;
+   
+  height: 400px;
+  display: flex;
+  border-radius: 55px;
+  background-size: contain;  
   background-repeat: no-repeat;
+    background-position: center; 
+   
+   
+ 
 }
 .box2 {
-  background-color: rgb(196, 178, 212);
+  background-color: rgba(196, 178, 212, .4);
   float: left;
   width: 20%;
   height: 350px;
   margin-top: 10px;
   margin-right: 15px;
   text-align: justify;
-  color: beige;
+  color: rgb(61, 61, 53);
   padding: 10px;
   font-size: 19px;
+   
 }
 .img {
   background-image: url(/nadrudyak.github.io/images/taksa1.png);
