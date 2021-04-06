@@ -1,47 +1,35 @@
 body {
-    background-color: #b5ebb5;
+    background-color: #ecf7ec;
 }
 
- .newpaper {
-     column-count: 4;
-     text-align: justify;
-      column-rule-style: solid;
-     column-rule-width: 1px  ;
-     column-rule: steelblue solid;
-     column-gap: 30px;
-   
+.grid-container2 {
+    display:  grid;
+    grid-template-columns: auto auto  auto;
+    grid-column-gap: 20px; 
+    background-color: rgb(207, 216, 206);
+    grid-row-gap: 15px; 
+    height: 1100px;
+    justify-content: space-between;
+     
+}
+
+.grid-item {
+    background-color: rgb(105, 114, 113);
+    height: 280px;
+    margin: 15px;
+    width: 400px;
+    box-shadow: 3px;
+    
+    border-radius: 50px;
+    
+
  }
- .newpaper > h1{
-     column-span: all ;
-     text-align: center;
+ .picture {
+ background-image: url(/nadrudyak.github.io/images/0604.png); 
+ background-size: contain;
+   font-size: 35px;
+    
+    
  }
-/* fffffffffffff */
-  
-  .grid-container > div {
-     background-color: thistle;
-     text-align: center;
-     padding: 10px;
-     font-size: 20px;
- }
- .item1 {
-     grid-area: header;
- }
- .item2 {
-    grid-area: menu;
-}
-.item3 {
-    grid-area: main;
-}
-.item4 {
-    grid-area: right;
-}
-.item5 {
-    grid-area: footer;
-}
-.grid-container {
-    display: grid;
-    grid-template-areas: 
-    "header header header header header header header" 
-    "menu main main main main right"
-    "menu footer footer footer footer footer";
-}
+
+ 
