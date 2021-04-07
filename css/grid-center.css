@@ -1,35 +1,28 @@
 body {
-    background-color: #ecf7ec;
+  background-color: #ecf7ec;
 }
 
 .grid-container2 {
-    display:  grid;
-    grid-template-columns: auto auto  auto;
-    grid-column-gap: 20px; 
-    background-color: rgb(207, 216, 206);
-    grid-row-gap: 15px; 
-    height: 1100px;
-    justify-content: space-between;
-     
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 20px;
+  background-color: rgb(207, 216, 206);
+  grid-row-gap: 15px;
+  height: 1100px;
+  justify-content: space-between;
 }
 
 .grid-item {
-    background-color: rgb(105, 114, 113);
-    height: 280px;
-    margin: 15px;
-    width: 400px;
-    box-shadow: 3px;
-    
-    border-radius: 50px;
-    
+  background-color: rgb(105, 114, 113);
+  height: 280px;
+  margin: 15px;
+  width: 400px;
+  box-shadow: 3px;
 
- }
- .picture {
- background-image: url(/nadrudyak.github.io/images/0604.png); 
- background-size: contain;
-   font-size: 35px;
-    
-    
- }
-
- 
+  border-radius: 50px;
+}
+.picture {
+  background-image: url(/nadrudyak.github.io/images/0604.png);
+  background-size: contain;
+  font-size: 35px;
+}
