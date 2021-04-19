@@ -1,10 +1,29 @@
 body {
   background-color: rgb(237, 249, 250);
+  max-width: 100%;
 }
-.box1 {
-  height: 420px;
-  display: flex;
+ 
+@media (max-width: 1200px) {
+  body {
+    max-width: 970px;
+  }
 }
+@media (max-width: 992px) {
+  body {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    max-width: none;
+  }
+} 
+
+
+
+
+
 .box2 {
   background-color: rgba(196, 178, 212, 0.4);
   float: left;
@@ -128,7 +147,7 @@ h1 {
 }
 .background {
   background-image: url(../images/fon2.png);
-  background-attachment:scroll;
+  background-attachment: scroll;
   background-repeat: repeat;
   background-attachment: fixed;
 }
