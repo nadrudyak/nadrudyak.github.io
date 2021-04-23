@@ -41,7 +41,7 @@ body {
   background: linear-gradient(
     333deg,
     rgba(230, 230, 230, 1) 16%,
-    rgba(158, 164, 167, 1) 99%
+    rgb(190, 193, 194) 99%
   );
   text-align: justify;
   box-shadow: 3px 3px 3px #616160e5;
