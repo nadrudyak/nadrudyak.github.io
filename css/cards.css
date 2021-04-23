@@ -45,19 +45,24 @@ body {
   text-align: justify;
 }
 .img {
+   
   height: 300px;
   width: 100%;
-  overflow: hidden;
+   overflow: hidden; 
   opacity: 1;
   box-shadow: rgb(27, 24, 24) 15px;
+   
 }
 .img:hover {
   opacity: 0.5;
 }
 h1,
 p {
-  margin: 5px;
+  padding: 5px;
 }
 h1 {
   font-size: 25px;
+}
+.fa {
+  padding-right: 10px;
 }

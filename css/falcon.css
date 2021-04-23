@@ -1,3 +1,122 @@
-body {
-    background-color: #edf2f9;
+* {
+  box-sizing: border-box;
 }
+
+body {
+  background-color: #edf2f9;
+  font-family: open sans, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    helvetica neue, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 200px repeat(5, 1fr);
+  grid-template-rows: 60px 90px 800px;
+}
+header {
+  grid-column: 1 / 7;
+}
+.nav {
+  grid-column: 1 / 7;
+  grid-row: 2 / 3;
+  background-color: #fff;
+  width: 100%;
+  margin: auto;
+  border-radius: 25px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.left nav {
+  display: flex;
+  flex-direction: row;
+   
+  justify-content: start;
+   
+}
+.box {
+  width: 180px;
+  border: teal solid;
+}
+.right nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+ 
+ .star {
+     display: block;
+     border: 2px black;
+     width: 25px;
+     height: 20px;
+     box-shadow: black 2px;
+ }
+  
+ 
+.menu {
+  grid-column: 1 / 2;
+  grid-row: 3 / 6;
+  border: rgb(34, 233, 150) solid;
+}
+.first {
+  grid-column: 2 / 3;
+  grid-row: 3 / 6;
+  border: hotpink solid;
+}
+
+.second {
+  grid-column: 3 / 4;
+  grid-row: 3 / 6;
+  border: hotpink solid;
+}
+.third {
+  grid-column: 4 / 5;
+  grid-row: 3 / 6;
+  border: hotpink solid;
+}
+.fourtth {
+  grid-column: 5 / 6;
+  grid-row: 3 / 6;
+  border: hotpink solid;
+}
+
+.fifth {
+  grid-column: 6 / 7;
+  grid-row: 3 / 6;
+  border: hotpink solid;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto 0;
+  align-items: center;
+}
+.header-text p {
+  color: rgb(64, 128, 224);
+  font-size: 30px;
+  font-weight: bolder;
+  width: 80px;
+  margin: 0;
+}
+.header-text {
+  display: flex;
+  text-align: center;
+  width: 250px;
+  height: 50px;
+  padding-left: 20px;
+}
+.search {
+  width: 320px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 35px;
+  margin: auto 0;
+}
+.icon {
+  display: flex;
+  width: 350px;
+  height: 50px;
+  border: 1px solid #000;
+}
+ 
