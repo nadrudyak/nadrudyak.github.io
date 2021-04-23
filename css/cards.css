@@ -7,6 +7,7 @@ body {
     rgba(230, 230, 230, 1) 23%,
     rgba(206, 208, 209, 1) 97%
   );
+   
 }
 .section {
   font-size: 25px;
@@ -67,4 +68,7 @@ h1 {
 }
 .fa {
   padding-right: 10px;
+}
+footer {
+  height:  25px;
 }
