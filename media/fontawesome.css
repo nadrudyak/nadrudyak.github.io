@@ -1,159 +1,180 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #fff;
-    font-family: Helvetica, Arial, sans-serif;
-    margin: 0;
-}
-
-header {
-    background-color: #488dd8;
-    color: #fff;
-    overflow: hidden;
-    height: 150px;
-    text-align: center;
-    font-size: 25px;
-    padding-top: 25px;
-}
-
-.btn {
-    display: inline-block;
-    background-color: #fff;
-    color: #488dd8;
-    width: 280px;
-    height: 60px;
-    align-items: center;
-    border-radius: 35px;
-    padding-top: 15px;
-    box-shadow: 1px 1px 2px rgb(44, 44, 44);
-}
-
-.btn:hover {
-    background-color: #417fc2;
-    color: #fff;
-}
-
-nav,
-footer {
-    background-color: #1ea076;
-    overflow: hidden;
-}
-
-nav a {
-    display: block;
-    float: left;
-    align-items: center;
-    padding: 5px 10px;
-    text-decoration: none;
-    color: #fff;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-}
-
-nav a:hover {
-    color: rgb(206, 212, 212);
-    background-color: rgb(157, 172, 161);
-}
-
-.content {
-    background-color: #1ea076;
-    color: #fff;
-    overflow: hidden;
-    height: 300px;
-    text-align: center;
-}
-
-.content h1 {
-    text-shadow: 8px 4px #474948;
-    font-size: 70px;
-    margin: 25px 5px;
-}
-
-.content p {
-    font-size: 25px;
-    color: rgb(213, 236, 218);
-}
-
-.button a {
-    display: inline-block;
-    background-color: #1ea076;
-    color: #fff;
-    width: 170px;
-    height: 60px;
-    border: 1px solid rgb(238, 237, 234);
-    padding-top: 18px;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 10px;
-}
-
-.button a:hover {
-    background-color: #fff;
-    color: #1ea076;
-}
-
-main {
-    width: 70%;
-    height: 500px;
-    padding-top: 45px;
-    margin: auto;
-    column-count: 3;
-    column-gap: 50px;
-    text-align: justify;
-}
-
-main h1 {
-    text-align: center;
-    font-size: 25px;
-    font-weight: normal;
-    column-span: all;
-    padding-bottom: 35px;
-}
-
-main a {
-    color: #1ea076;
-    text-decoration: none;
-}
-
-.section {
-    width: 70%;
-    height: 250px;
-    padding-top: 45px;
-    margin: auto;
-    column-count: 3;
-    column-gap: 50px;
-    text-align: justify;
-    padding-bottom: 15px;
-}
-
-.section h1 {
-    column-span: all;
-    font-weight: normal;
-}
-
-.section a {
-    color: #1ea076;
-}
-
-footer {
-    padding-top: 40px;
-    height: 250px;
-    color: #fff;
-    text-align: center;
-    font-size: small;
-    line-height: 25px;
-}
-
-footer a {
-    text-decoration: none;
-    color: #fff;
-}
-
-footer a:hover {
-    color: darkgrey;
-}
+                * {
+                    box-sizing: border-box;
+                }
+                
+                body {
+                    background-color: #fff;
+                    font-family: Helvetica, Arial, sans-serif;
+                    margin: 0;
+                }
+                
+                header {
+                    width: 100%;
+                    background-color: #488dd8;
+                    color: #fff;
+                    overflow: hidden;
+                    height: 150px;
+                    text-align: center;
+                    font-size: 25px;
+                    padding-top: 25px;
+                }
+                
+                .btn {
+                    display: inline-block;
+                    background-color: #fff;
+                    color: #488dd8;
+                    width: 280px;
+                    height: 60px;
+                    align-items: center;
+                    border-radius: 35px;
+                    padding-top: 15px;
+                    box-shadow: 1px 1px 2px rgb(44, 44, 44);
+                }
+                
+                .btn:hover {
+                    background-color: #417fc2;
+                    color: #fff;
+                }
+                
+                nav,
+                footer {
+                    background-color: #1ea076;
+                    overflow: hidden;
+                }
+                
+                nav a {
+                    padding: 5px 10px;
+                    text-decoration: none;
+                    color: #fff;
+                }
+                
+                nav {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                nav a:hover {
+                    color: rgb(206, 212, 212);
+                    background-color: rgb(157, 172, 161);
+                }
+                
+                .content {
+                    width: 100%;
+                    background-color: #1ea076;
+                    color: #fff;
+                    overflow: hidden;
+                    height: 300px;
+                    text-align: center;
+                }
+                
+                .content h1 {
+                    text-shadow: 8px 4px #474948;
+                    font-size: 70px;
+                    margin: 25px 5px;
+                }
+                
+                .content p {
+                    font-size: 25px;
+                    color: rgb(213, 236, 218);
+                }
+                
+                .button a {
+                    display: inline-block;
+                    background-color: #1ea076;
+                    color: #fff;
+                    width: 170px;
+                    height: 60px;
+                    border: 1px solid rgb(238, 237, 234);
+                    padding-top: 18px;
+                    text-decoration: none;
+                    font-size: 20px;
+                    border-radius: 10px;
+                }
+                
+                .button a:hover {
+                    background-color: #fff;
+                    color: #1ea076;
+                }
+                
+                main {
+                    width: 70%;
+                    height: 50%;
+                    padding-top: 45px;
+                    margin: auto;
+                    column-count: 3;
+                    column-gap: 50px;
+                    text-align: justify;
+                }
+                
+                main h1 {
+                    text-align: center;
+                    font-size: 25px;
+                    font-weight: normal;
+                    column-span: all;
+                    padding-bottom: 35px;
+                }
+                
+                main a {
+                    color: #1ea076;
+                    text-decoration: none;
+                }
+                
+                .section {
+                    width: 70%;
+                    height: 250px;
+                    padding-top: 45px;
+                    margin: auto;
+                    column-count: 3;
+                    column-gap: 50px;
+                    text-align: justify;
+                    padding-bottom: 15px;
+                }
+                
+                .section h1 {
+                    column-span: all;
+                    font-weight: normal;
+                }
+                
+                .section a {
+                    color: #1ea076;
+                }
+                
+                footer {
+                    width: 100%;
+                    padding-top: 40px;
+                    height: 250px;
+                    color: #fff;
+                    text-align: center;
+                    font-size: small;
+                    line-height: 25px;
+                }
+                
+                footer a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+                
+                footer a:hover {
+                    color: darkgrey;
+                }
+                
+                @media screen and (max-width: 768px) {
+                    header,
+                    nav,
+                    .content,
+                    .section,
+                    footer {
+                        width: 100%;
+                    }
+                    nav {
+                        flex-direction: column;
+                    }
+                    main,
+                    .section {
+                        column-count: 1;
+                        width: 100%;
+                    }
+                }
+                
+                @media screen and (max-width: 768px) {}
