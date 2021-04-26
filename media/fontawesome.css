@@ -182,4 +182,7 @@ footer a:hover {
     footer {
         height: 100%;
     }
+    .content h1 {
+        font-size: 20px;
+    }
 }
