@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {}
+
+img {
+    max-width: 100%;
+}
+
+.logo {}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(7, 2, 2);
+    font-size: 25px;
+}
+
+.menu a:hover {
+    color: rgb(235, 164, 34);
+}
+
+.picture {}
+
+.content {}
+
+.section {
+    background-color: darkslategrey;
+    width: 100%;
+    color: #fff;
+    font-size: 25px;
+    height: 250px;
+}
+
+footer {
+    background-color: rosybrown;
+    width: 100%;
+    height: 25px;
+}
