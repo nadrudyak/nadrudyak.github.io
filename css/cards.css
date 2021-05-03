@@ -54,9 +54,11 @@ body {
 
 .img {
     height: 300px;
-    width: 100%;
     overflow: hidden;
     opacity: 1;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
 }
 
 .img:hover {

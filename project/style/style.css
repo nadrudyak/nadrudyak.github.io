@@ -4,11 +4,22 @@
 
 body {}
 
+header {
+    display: flex;
+}
+
 img {
     max-width: 100%;
 }
 
-.logo {}
+.logo {
+    color: blueviolet;
+    font-size: x-large;
+}
+
+.menu {
+    display: flex;
+}
 
 .menu a {
     text-decoration: none;
