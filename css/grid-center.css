@@ -1,30 +1,29 @@
 body {
-  background-color: #ecf7ec;
+    background-color: #ecf7ec;
 }
 
 .grid-container2 {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 10px;
-  background-color: rgb(207, 216, 206);
-  grid-row-gap: 10px;
-  height: 1100px;
-  justify-content: center;
-   
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    background-color: rgb(207, 216, 206);
+    grid-row-gap: 10px;
+    height: 1100px;
+    justify-content: center;
 }
 
 .grid-item {
-  background-color: rgb(105, 114, 113);
-  height: 280px;
-  margin: 15px;
-  width: 400px;
-  box-shadow: 3px;
-
-  border-radius: 25px;
+    background-color: rgb(105, 114, 113);
+    height: 280px;
+    margin: 15px;
+    width: 400px;
+    box-shadow: 3px;
+    border-radius: 25px;
 }
+
 .picture {
- width: 400px;
- height: 300px;
-  background-image: url(../images/0604.png);
-  background-size: contain;
+    width: 400px;
+    height: 300px;
+    background-image: url(../images/0604.png);
+    background-size: cover;
 }

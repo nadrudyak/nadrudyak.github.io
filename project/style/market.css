@@ -1,0 +1,96 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        font-family: Arial;
+        background-color: #f5f7fa;
+    }
+    
+    .image {
+        background-image: url(../images/top-view-books-and-notebook.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        height: 50vh;
+    }
+    
+    .header {
+        overflow: hidden;
+        padding: 20px 40px;
+        margin-right: 80px;
+    }
+    
+    .header a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 13px;
+        text-decoration: none;
+        font-size: 24px;
+        line-height: 25px;
+    }
+    
+    a.logo {
+        font-size: 65px;
+        font-family: 'Dancing Script', cursive;
+        color: rgb(235, 164, 34);
+    }
+    
+    .header a:hover {
+        color: rgb(235, 164, 34);
+    }
+    
+    .header-right {
+        float: right;
+    }
+    
+    @media screen and (max-width: 500px) {
+        .header a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+        .header-right {
+            float: none;
+        }
+    }
+    /* Образец оформления картинки */
+    
+    .image-decor {
+        position: relative;
+        display: table;
+        margin: 50px auto;
+        border: 5px solid #fff;
+        box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1);
+    }
+    
+    .image-decor:before,
+    .image-decor:after {
+        content: "";
+        position: absolute;
+        z-index: 2;
+        width: 150px;
+        height: 25px;
+        background: #fff;
+        box-shadow: 0 -10px 10px -5px rgba(0, 0, 0, .1);
+    }
+    
+    .image-decor:before {
+        left: -50px;
+        bottom: -30px;
+        transform: rotate(30deg);
+    }
+    
+    .image-decor:after {
+        right: -50px;
+        bottom: -30px;
+        transform: rotate(-30deg);
+    }
+    
+    .image-decor img {
+        display: block;
+    }
