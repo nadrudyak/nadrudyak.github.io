@@ -4,8 +4,9 @@
 
 body {
     margin: 0;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #f5f7fa;
+    color: #595959;
 }
 
 .header {
@@ -16,7 +17,7 @@ body {
 
 .header a {
     float: left;
-    color: black;
+    color: #595959;
     text-align: center;
     padding: 13px;
     text-decoration: none;
@@ -36,17 +37,6 @@ a.logo {
 
 .header-right {
     float: right;
-}
-
-@media screen and (max-width: 500px) {
-    .header a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-    .header-right {
-        float: none;
-    }
 }
 
 .section {
@@ -111,10 +101,36 @@ h1 {
     padding: 8px;
 }
 
+
+/* Футер */
+
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: tomato;
-    height: 30px;
+    padding: 40px 0;
+    background: #3C3D41;
+    color: white;
+    height: 100px;
+}
+
+.wrap {
+    text-align: center;
+}
+
+.wrap a {
+    padding: 0 15px;
+    font-size: 23px;
+    color: white;
+}
+
+
+/* Шапка */
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
 }

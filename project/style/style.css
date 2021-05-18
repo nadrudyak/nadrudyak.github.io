@@ -4,8 +4,14 @@
 
 body {
     margin: 0;
-    font-family: Arial;
     background-color: #f5f7fa;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #595959;
+}
+
+p {
+    text-indent: 1cm;
+    margin: 5px;
 }
 
 .header {
@@ -16,12 +22,12 @@ body {
 
 .header a {
     float: left;
-    color: black;
     text-align: center;
     padding: 13px;
     text-decoration: none;
     font-size: 24px;
     line-height: 25px;
+    color: #595959;
 }
 
 a.logo {
@@ -47,7 +53,7 @@ a.logo {
     width: 90%;
     height: auto;
     justify-content: center;
-    margin-top: 45px;
+    margin: 45px auto 10px auto;
     align-items: center;
     justify-content: center;
 }
@@ -110,11 +116,6 @@ a.logo {
     padding: 0 10px;
     font-size: 20px;
     text-align: justify;
-    color: #595959;
-}
-
-.text p {
-    margin-top: 0;
 }
 
 
@@ -123,7 +124,7 @@ a.logo {
 blockquote {
     margin: auto;
     background: #BCE8EA;
-    color: #595959;
+    color: #808584;
     padding: 30px 30px 30px 340px;
     position: relative;
     height: 150px;
@@ -136,7 +137,6 @@ blockquote:before {
     position: absolute;
     top: 20px;
     left: 250px;
-    color: black;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -159,22 +159,18 @@ blockquote:after {
 
 blockquote p {
     margin-top: 0;
-    font-size: 24px;
-    font-weight: 300;
-}
-
-blockquote cite {
-    font-weight: bolder;
-    background: #BCE8EA;
-    font-style: normal;
+    font-size: 30px;
 }
 
 #footer {
-    background: #BCE8EA;
+    color: white;
+    font-style: oblique;
+    font-size: 20px;
+    margin-top: 35px;
 }
 
 
-/* 10 интересных фактов */
+/* заголовок -10 интересных фактов */
 
 .title {
     display: block;
@@ -183,7 +179,6 @@ blockquote cite {
     font: 32px "EsqDisplayCyr-Black", sans-serif;
     color: rgb(235, 164, 34);
     margin-bottom: 55px;
-    /* width: 65%; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
@@ -200,12 +195,15 @@ span {
     display: block;
 }
 
+
+/* Таблица 10 интересных  фактов */
+
 .container {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: repeat(5, 250px);
-    gap: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .container .fa {
@@ -217,21 +215,15 @@ span {
     width: 600px;
     align-items: flex-start;
     text-align: justify;
-    padding: 15px;
+    padding: 20px;
     background-color: #ffffff;
-    color: #595959;
     border-radius: 5px;
-    box-shadow: 4px 5px 0 rgb(0 0 0 / 8%);
+    margin: 10px;
+    box-shadow: 2px 2px 0 rgb(0 0 0 / 8%);
 }
 
 .container>div:hover {
     border-bottom: solid 2px rgb(235, 164, 34);
-}
-
-footer {
-    background-color: rgba(222, 184, 135, 0.5);
-    width: 100%;
-    height: 65px;
 }
 
 
@@ -320,4 +312,24 @@ footer {
     .header-right {
         float: none;
     }
+}
+
+
+/* Футер */
+
+footer {
+    padding: 40px 0;
+    background: #3C3D41;
+    color: white;
+    height: 100px;
+}
+
+.wrap {
+    text-align: center;
+}
+
+.wrap a {
+    padding: 0 15px;
+    font-size: 23px;
+    color: white;
 }

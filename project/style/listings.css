@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #f5f7fa;
     color: #595959;
 }
@@ -17,7 +17,7 @@ body {
 
 .header a {
     float: left;
-    color: black;
+    color: #595959;
     text-align: center;
     padding: 13px;
     text-decoration: none;
@@ -39,8 +39,8 @@ a.logo {
     float: right;
 }
 
-span {
-    font-size: 35px;
+.desc span {
+    font-size: 40px;
     font-family: 'Dancing Script', cursive;
     color: rgb(235, 164, 34);
 }
@@ -50,45 +50,6 @@ span {
     font-size: 20px;
     text-align: justify;
     padding: 20px;
-}
-
-
-/* оформление заголовка */
-
-h3 {
-    font-size: 20px;
-    width: 100%;
-    position: relative;
-    display: inline-block;
-}
-
-.d14 h3 {
-    display: table;
-    width: auto;
-    margin: 15px auto;
-    letter-spacing: 2px;
-}
-
-.d14 h3:before {
-    content: "";
-    position: absolute;
-    top: -50%;
-    left: -25px;
-    width: 30px;
-    height: 20px;
-    border-top: 2px solid #fed57b;
-    border-left: 2px solid #fed57b;
-}
-
-.d14 h3:after {
-    content: "";
-    position: absolute;
-    bottom: -50%;
-    right: -25px;
-    width: 30px;
-    height: 20px;
-    border-bottom: 2px solid #fed57b;
-    border-right: 2px solid #fed57b;
 }
 
 
@@ -110,6 +71,31 @@ h3 {
     height: 500px;
     opacity: 0.9;
     margin-bottom: 85px;
+}
+
+
+/* Заголовки */
+
+.title {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(235, 164, 34);
+    margin-bottom: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+span {
+    background-color: #f5f7fa;
+}
+
+.title:after {
+    content: "";
+    border-top: 2px solid rgb(235, 164, 34);
+    margin: -16px 0 0 0;
+    display: block;
 }
 
 
@@ -155,4 +141,24 @@ h1 {
 
 .listing p {
     text-align: center;
+}
+
+
+/* Футер */
+
+footer {
+    padding: 40px 0;
+    background: #3C3D41;
+    color: white;
+    height: 100px;
+}
+
+.wrap {
+    text-align: center;
+}
+
+.wrap a {
+    padding: 0 15px;
+    font-size: 23px;
+    color: white;
 }

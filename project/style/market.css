@@ -1,96 +1,190 @@
-    * {
-        box-sizing: border-box;
-    }
-    
-    body {
-        margin: 0;
-        font-family: Arial;
-        background-color: #f5f7fa;
-    }
-    
-    .image {
-        background-image: url(../images/top-view-books-and-notebook.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        width: 100%;
-        height: 50vh;
-    }
-    
-    .header {
-        overflow: hidden;
-        padding: 20px 40px;
-        margin-right: 80px;
-    }
-    
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #595959;
+    font-size: 20px;
+    text-align: justify;
+}
+
+p {
+    text-indent: 1cm;
+    margin: 5px;
+}
+
+.image {
+    background-image: url(../images/old-books-with-white-background-and-copy-space.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    height: 50vh;
+}
+
+.header {
+    overflow: hidden;
+    padding: 20px 40px;
+    margin-right: 80px;
+}
+
+.header a {
+    float: left;
+    color: #595959;
+    text-align: center;
+    padding: 13px;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 25px;
+}
+
+a.logo {
+    font-size: 65px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(235, 164, 34);
+}
+
+.header a:hover {
+    color: rgb(235, 164, 34);
+}
+
+.header-right {
+    float: right;
+}
+
+.section img {
+    float: left;
+    box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1);
+    margin-right: 35px;
+    margin-bottom: 35px;
+    border-radius: 8px;
+}
+
+.section,
+.section-reader {
+    margin: 40px;
+}
+
+.section h1 {
+    padding-left: 125px;
+    margin: 10px;
+    font-size: 35px;
+}
+
+.section a {
+    text-decoration: none;
+    color: rgb(235, 164, 34);
+    font-size: 20px;
+}
+
+.section-services {
+    clear: both;
+}
+
+.section-exhibition {
+    margin: 40px;
+}
+
+.section-exhibition h1 {
+    text-align: center;
+}
+
+
+/* оформление картинки  выставки*/
+
+.image-decor {
+    position: relative;
+    display: table;
+    margin: 50px auto;
+    border: 5px solid #BCE8EA;
+    box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1);
+}
+
+.image-decor:before,
+.image-decor:after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 80px;
+    height: 25px;
+    background: #BCE8EA;
+    box-shadow: 0 -10px 10px -5px rgba(0, 0, 0, .1);
+}
+
+.image-decor:before {
+    left: -50px;
+    bottom: -15px;
+    transform: rotate(30deg);
+}
+
+.image-decor:after {
+    right: -50px;
+    bottom: -15px;
+    transform: rotate(-30deg);
+}
+
+.image-decor img {
+    display: block;
+}
+
+
+/* Электронные книги */
+
+.section-reader h1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.section-reader a {
+    color: rgb(235, 164, 34);
+    text-decoration: none;
+}
+
+.img-container {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* Для шапки */
+
+@media screen and (max-width: 500px) {
     .header a {
-        float: left;
-        color: black;
-        text-align: center;
-        padding: 13px;
-        text-decoration: none;
-        font-size: 24px;
-        line-height: 25px;
-    }
-    
-    a.logo {
-        font-size: 65px;
-        font-family: 'Dancing Script', cursive;
-        color: rgb(235, 164, 34);
-    }
-    
-    .header a:hover {
-        color: rgb(235, 164, 34);
-    }
-    
-    .header-right {
-        float: right;
-    }
-    
-    @media screen and (max-width: 500px) {
-        .header a {
-            float: none;
-            display: block;
-            text-align: left;
-        }
-        .header-right {
-            float: none;
-        }
-    }
-    /* Образец оформления картинки */
-    
-    .image-decor {
-        position: relative;
-        display: table;
-        margin: 50px auto;
-        border: 5px solid #fff;
-        box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1);
-    }
-    
-    .image-decor:before,
-    .image-decor:after {
-        content: "";
-        position: absolute;
-        z-index: 2;
-        width: 150px;
-        height: 25px;
-        background: #fff;
-        box-shadow: 0 -10px 10px -5px rgba(0, 0, 0, .1);
-    }
-    
-    .image-decor:before {
-        left: -50px;
-        bottom: -30px;
-        transform: rotate(30deg);
-    }
-    
-    .image-decor:after {
-        right: -50px;
-        bottom: -30px;
-        transform: rotate(-30deg);
-    }
-    
-    .image-decor img {
+        float: none;
         display: block;
+        text-align: left;
     }
+    .header-right {
+        float: none;
+    }
+}
+
+
+/* Футер */
+
+footer {
+    padding: 40px 0;
+    background: #3C3D41;
+    color: white;
+    height: 100px;
+}
+
+.wrap {
+    text-align: center;
+}
+
+.wrap a {
+    padding: 0 15px;
+    font-size: 23px;
+    color: white;
+}
