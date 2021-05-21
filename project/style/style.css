@@ -9,9 +9,12 @@ body {
     color: #595959;
 }
 
-p {
+.text p,
+.desc p {
     text-indent: 1cm;
     margin: 5px;
+    line-height: 30px;
+    word-spacing: 5px;
 }
 
 .header {
@@ -45,7 +48,36 @@ a.logo {
 }
 
 .picture {
+    background-image: url(../images/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     max-width: 100%;
+    height: 65vh;
+}
+
+.desc {
+    margin: 20px;
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+
+.desc span {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(235, 164, 34);
+}
+
+.desc {
+    margin: 20px;
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+
+hr {
+    border-top: 3px solid #BCE8EA;
 }
 
 .content {
@@ -121,7 +153,7 @@ a.logo {
 
 /* Цитата */
 
-blockquote {
+.blockquote {
     margin: auto;
     background: #BCE8EA;
     color: #808584;
@@ -131,7 +163,7 @@ blockquote {
     margin-top: 55px;
 }
 
-blockquote:before {
+.blockquote:before {
     content: "\201C";
     font-family: serif;
     position: absolute;
@@ -147,7 +179,7 @@ blockquote:before {
     line-height: 50px;
 }
 
-blockquote:after {
+.blockquote:after {
     content: "";
     width: 4px;
     background: white;
@@ -157,7 +189,7 @@ blockquote:after {
     bottom: 20px;
 }
 
-blockquote p {
+.blockquote p {
     margin-top: 0;
     font-size: 30px;
 }
@@ -276,6 +308,7 @@ span {
     color: #595959;
     margin-bottom: 15px;
     transition: .3s ease-in-out;
+    text-align: center;
 }
 
 .post-item-wrap:hover .post-title {
@@ -284,7 +317,8 @@ span {
 
 .post-content {
     color: #595959;
-    font-size: 14px;
+    font-size: 17px;
+    text-align: justify;
 }
 
 @media (min-width: 768px) {
