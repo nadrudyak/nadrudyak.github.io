@@ -1,15 +1,34 @@
 body {
     background-color: rgb(213, 224, 204);
-    
 }
+
 .list {
     font-size: 25px;
-     
 }
+
 h1 {
-    color:rgb(121, 131, 112);
+    color: rgb(121, 131, 112);
     text-transform: uppercase;
 }
- ul {
+
+ul {
     list-style-type: decimal;
+}
+
+.project {
+    display: block;
+    width: 800px;
+    height: 500px;
+    background-image: url(../project/images/top-view-books-and-notebook.jpg);
+    background-size: cover;
+    margin: auto;
+}
+
+.project a {
+    font-size: 40px;
+    text-decoration: none;
+    position: absolute;
+    color: rgb(75, 60, 19);
+    left: 670px;
+    top: 800px;
 }
