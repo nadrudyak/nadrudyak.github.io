@@ -1,164 +1,173 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f5f7fa;
-    color: #595959;
-}
-
-.header {
-    overflow: hidden;
-    padding: 20px 40px;
-    margin-right: 80px;
-}
-
-.header a {
-    float: left;
-    color: #595959;
-    text-align: center;
-    padding: 13px;
-    text-decoration: none;
-    font-size: 24px;
-    line-height: 25px;
-}
-
-a.logo {
-    font-size: 65px;
-    font-family: 'Dancing Script', cursive;
-    color: rgb(235, 164, 34);
-}
-
-.header a:hover {
-    color: rgb(235, 164, 34);
-}
-
-.header-right {
-    float: right;
-}
-
-.desc {
-    margin: 20px;
-    font-size: 20px;
-    text-align: justify;
-    padding: 20px;
-    line-height: 30px;
-    word-spacing: 5px;
-    text-indent: 1cm;
-}
-
-.desc p {
-    margin: 0;
-}
-
-.image {
-    background-image: url(../images/listing.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    height: 50vh;
-}
-
-
-/* Заголовки */
-
-.title {
-    display: block;
-    text-align: center;
-    padding-top: 20px;
-    color: rgb(235, 164, 34);
-    margin-bottom: 55px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
-}
-
-span {
-    background-color: #f5f7fa;
-}
-
-.title:after {
-    content: "";
-    border-top: 2px solid rgb(235, 164, 34);
-    margin: -16px 0 0 0;
-    display: block;
-}
-
-
-/* Карточки*/
-
-.listing {
-    list-style: none;
-    margin: 2em;
-    display: grid;
-    gap: 15px;
-    grid-auto-flow: dense;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-}
-
-.listing li {
-    border: 1px solid rgb(165, 176, 182);
-    border-bottom-right-radius: 9px;
-    border-bottom-left-radius: 9px;
-}
-
-.listing h2 {
-    border-bottom: 1px solid rgb(165, 176, 182);
-    text-align: center;
-    padding: 5px 0;
-    height: 40px;
-    margin: 0;
-    background-color: rgba(238, 234, 234, 0.911);
-    font-size: 15px;
-}
-
-img {
-    max-width: 100%;
-}
-
-.listing img:hover {
-    opacity: 0.5;
-}
-
-h1 {
-    text-align: center;
-    padding-top: 60px;
-}
-
-.listing p {
-    text-align: center;
-}
-
-
-/* Футер */
-
-footer {
-    padding: 40px 0;
-    background: #3C3D41;
-    color: white;
-    height: 100px;
-}
-
-.wrap {
-    text-align: center;
-}
-
-.wrap a {
-    padding: 0 15px;
-    font-size: 23px;
-    color: white;
-}
-
-@media screen and (max-width: 768px) {
-    .header a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-    .header-right {
-        float: none;
-    }
-}
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f7fa;
+            color: #595959;
+        }
+        
+        .header {
+            overflow: hidden;
+            padding: 20px 40px;
+            margin-right: 80px;
+        }
+        
+        .header a {
+            float: left;
+            color: #595959;
+            text-align: center;
+            padding: 13px;
+            text-decoration: none;
+            font-size: 24px;
+            line-height: 25px;
+        }
+        
+        a.logo {
+            font-size: 65px;
+            font-family: 'Dancing Script', cursive;
+            color: rgb(235, 164, 34);
+        }
+        
+        .header a:hover {
+            color: rgb(235, 164, 34);
+        }
+        
+        .header-right {
+            float: right;
+        }
+        
+        .desc {
+            margin: 20px;
+            font-size: 20px;
+            text-align: justify;
+            padding: 20px;
+            line-height: 30px;
+            word-spacing: 5px;
+            text-indent: 1cm;
+        }
+        
+        .desc p {
+            margin: 0;
+        }
+        
+        .image {
+            background-image: url(../images/listing.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            max-width: 100%;
+            height: 50vh;
+        }
+        /* Заголовки */
+        
+        .title {
+            display: block;
+            text-align: center;
+            padding-top: 20px;
+            color: rgb(235, 164, 34);
+            margin-bottom: 55px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 80px;
+        }
+        
+        span {
+            background-color: #f5f7fa;
+        }
+        
+        .title:after {
+            content: "";
+            border-top: 2px solid rgb(235, 164, 34);
+            margin: -16px 0 0 0;
+            display: block;
+        }
+        /* Карточки*/
+        
+        .listing {
+            list-style: none;
+            margin: 2em;
+            display: grid;
+            gap: 15px;
+            grid-auto-flow: dense;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        }
+        
+        .listing li {
+            border: 1px solid rgb(165, 176, 182);
+            border-bottom-right-radius: 9px;
+            border-bottom-left-radius: 9px;
+        }
+        
+        .listing h2 {
+            border-bottom: 1px solid rgb(165, 176, 182);
+            text-align: center;
+            padding: 5px 0;
+            height: 40px;
+            margin: 0;
+            background-color: rgba(238, 234, 234, 0.911);
+            font-size: 15px;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+        
+        .listing img:hover {
+            opacity: 0.5;
+        }
+        
+        h1 {
+            text-align: center;
+            padding-top: 60px;
+        }
+        
+        .listing p {
+            text-align: center;
+        }
+        /* Футер */
+        
+        footer {
+            padding: 40px 0;
+            background: #3C3D41;
+            color: white;
+            height: 100px;
+        }
+        
+        .wrap {
+            text-align: center;
+        }
+        
+        .wrap a {
+            padding: 0 15px;
+            font-size: 23px;
+            color: white;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .header a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+            .header-right {
+                float: none;
+            }
+            .listing {
+                list-style: none;
+                margin: 2em;
+                display: grid;
+                gap: 15px;
+                grid-auto-flow: dense;
+                grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+                font-size: 10px;
+            }
+            .listing h2 {
+                font-size: 10px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+        }
