@@ -45,15 +45,18 @@ a.logo {
     height: 500px;
     opacity: 0.8;
     background-position: center;
+    margin-bottom: 120px;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: 25% 25% 25%;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 470px 470px 470px;
     margin-top: 155px;
     justify-content: center;
     gap: 100px 20px;
+    width: 80%;
+    margin: auto;
 }
 
 .item-grid {
@@ -124,7 +127,7 @@ footer {
 
 /* Шапка */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .header a {
         float: none;
         display: block;
@@ -132,5 +135,24 @@ footer {
     }
     .header-right {
         float: none;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 400px);
+        margin-top: 155px;
+        justify-content: center;
+        gap: 100px 20px;
+        width: 80%;
+        margin: auto;
+    }
+    h1 {
+        font-size: 15px;
+    }
+    p {
+        font-size: 10px;
+    }
+    img {
+        width: 50%;
     }
 }
