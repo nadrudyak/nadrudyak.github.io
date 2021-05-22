@@ -81,19 +81,23 @@ hr {
 }
 
 .content {
-    display: flex;
-    width: 90%;
-    height: 600px;
-    justify-content: center;
-    margin: 45px auto 10px auto;
-    align-items: center;
-    justify-content: center;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    word-spacing: 5px;
 }
 
-.photo {
-    width: 25%;
-    justify-content: center;
-    display: flex;
+.content p {
+    margin: 10px 20px;
+    padding-top: 15px;
+}
+
+.content img {
+    float: left;
+    margin: 15px 40px 40px 40px;
 }
 
 #photo1 {
