@@ -34,3 +34,8 @@
         top: 150px;
         left: 110px;
     }
+    
+    a {
+        text-decoration: none;
+        color: rgb(75, 60, 19);
+    }
