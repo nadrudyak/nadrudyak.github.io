@@ -274,12 +274,13 @@ span {
 }
 
 .post-item {
-    padding: 10px;
+    padding: 15px;
 }
 
 .post-item-wrap {
     background: #ffffff;
     position: relative;
+    padding: 30px;
 }
 
 .post-item-wrap:after {
@@ -302,16 +303,10 @@ span {
     transform: rotate(2deg);
 }
 
-.post-link {
-    text-decoration: none;
-    display: block;
-    padding: 30px;
-}
-
 .post-title {
     color: #595959;
     margin-bottom: 15px;
-    transition: .3s ease-in-out;
+    transition: 0.3s;
     text-align: center;
 }
 
