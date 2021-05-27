@@ -294,7 +294,7 @@ span {
     background-color: #BCE8EA;
     transform: rotate(1deg);
     transform-origin: left bottom;
-    transition: .3s ease-in-out;
+    transition: .3s;
 }
 
 .post-item-wrap:hover:after {
@@ -338,6 +338,20 @@ footer {
     padding: 0 15px;
     font-size: 23px;
     color: white;
+}
+
+
+/* Кнопка наверх */
+
+#up {
+    height: 100vn;
+}
+
+.topNubex {
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+    color: rgb(235, 164, 34);
 }
 
 @media screen and (min-width: 768px) {

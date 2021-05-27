@@ -78,17 +78,6 @@ img {
     border: 9px solid #ffffff;
 }
 
-.btn a {
-    color: #3d70b2;
-    border: 2px solid #3d70b2;
-    padding: 5px;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: normal;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
 .btn {
     display: flex;
     justify-content: center;
@@ -102,6 +91,36 @@ h1 {
 .item-grid p {
     text-align: justify;
     padding: 15px;
+}
+
+
+/* Кнопки */
+
+.button {
+    text-decoration: none;
+    display: inline-block;
+    width: 240px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 45px;
+    border-radius: 15px;
+    font-size: 45px;
+    margin: 10px 20px;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    color: #524f4e;
+    background: #cccac7;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.button:hover {
+    background: rgb(235, 164, 34);
+    box-shadow: 0 15px 20px rgba(65, 66, 66, 0.4);
+    color: rgb(238, 213, 130);
+    transform: translateY(-5px);
 }
 
 
@@ -122,6 +141,20 @@ footer {
     padding: 0 15px;
     font-size: 23px;
     color: white;
+}
+
+
+/* Кнопка наверх */
+
+#up {
+    height: 100vn;
+}
+
+.topNubex {
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+    color: rgb(235, 164, 34);
 }
 
 

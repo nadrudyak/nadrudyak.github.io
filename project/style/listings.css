@@ -145,6 +145,18 @@
             font-size: 23px;
             color: white;
         }
+        /* Кнопка наверх */
+        
+        #up {
+            height: 100vn;
+        }
+        
+        .topNubex {
+            position: fixed;
+            right: 45px;
+            bottom: 45px;
+            color: rgb(235, 164, 34);
+        }
         
         @media screen and (max-width: 768px) {
             .header a {
