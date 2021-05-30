@@ -10,6 +10,10 @@ body {
     text-align: justify;
 }
 
+h1 {
+    color: rgb(235, 164, 34);
+}
+
 p {
     text-indent: 1cm;
     margin: 5px;
