@@ -27,7 +27,7 @@ body {
 
 a.logo {
     font-size: 65px;
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     color: rgb(235, 164, 34);
 }
 
@@ -112,8 +112,8 @@ h1 {
     font-weight: 600;
     color: #524f4e;
     background: #cccac7;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
-    transition: .3s;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
 }
 
 .button:hover {
@@ -128,7 +128,7 @@ h1 {
 
 footer {
     padding: 40px 0;
-    background: #3C3D41;
+    background: #3c3d41;
     color: white;
     height: 100px;
 }

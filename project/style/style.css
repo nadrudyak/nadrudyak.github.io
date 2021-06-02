@@ -64,7 +64,7 @@ a.logo {
 
 .desc span {
     font-size: 40px;
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     color: rgb(235, 164, 34);
 }
 
@@ -76,7 +76,7 @@ a.logo {
 }
 
 hr {
-    border-top: 3px solid #BCE8EA;
+    border-top: 3px solid #bce8ea;
 }
 
 .content {
@@ -158,7 +158,7 @@ hr {
 
 .blockquote {
     margin: auto;
-    background: #BCE8EA;
+    background: #bce8ea;
     color: #808584;
     padding: 30px 30px 30px 340px;
     position: relative;
@@ -290,10 +290,10 @@ span {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-color: #BCE8EA;
+    background-color: #bce8ea;
     transform: rotate(1deg);
     transform-origin: left bottom;
-    transition: .3s;
+    transition: 0.3s;
 }
 
 .post-item-wrap:hover:after {
@@ -310,7 +310,7 @@ span {
 }
 
 .post-item-wrap:hover .post-title {
-    color: #BCE8EA;
+    color: #bce8ea;
 }
 
 .post-content {
@@ -324,7 +324,7 @@ span {
 
 footer {
     padding: 40px 0;
-    background: #3C3D41;
+    background: #3c3d41;
     color: white;
     height: 100px;
 }
